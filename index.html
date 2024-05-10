@@ -64,7 +64,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">تماس با ما</a>
+                <a class="nav-link" href="#" onclick="myFunction()">تماس با ما</a>
               </li>
             </ul>
           </div>
@@ -74,8 +74,18 @@
     <div class="row body"></div>
 
     <!-- Contact Us starts here .......................... -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("ContactUs");
+        if (x.style.display === "none") {
+          x.style.display = "grid";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
 
-    <div class="ContactUs">
+    <div class="ContactUs" id="ContactUs">
       <link rel="stylesheet" href="style.css" />
       <script src="https://kit.fontawesome.com/c0a4b66692.js" crossorigin="anonymous"></script>
 
@@ -113,7 +123,7 @@
       <div class="ContactUsText">
         <h6>ارتباط با ما</h6>
         <p>
-          ... ما مشتاقانه منتظر نظرات &nbsp;
+          ما مشتاقانه منتظر نظرات &nbsp;
           <i class="fa-solid fa-paper-plane" id="ContactUsText1"></i> &nbsp;
           شما هستیم
         </p>
@@ -125,19 +135,19 @@
       <div class="Icons">
         <a href="https://www.instagram.com" target="_blank" title="Instagram">
           <i class="fa-brands fa-instagram"></i>
-        </a>
+        </a> &nbsp;
 
         <a href="https://www.linkedin.com" target="_blank" title="Linkedin">
           <i class="fa-brands fa-linkedin"></i>
-        </a>
+        </a> &nbsp;
 
         <a href="https://twitter.com" target="_blank" title="Twitter">
           <i class="fa-brands fa-twitter"></i>
-        </a>
+        </a> &nbsp;
 
         <a href="https://www.facebook.com" target="_blank" title="Facebook">
           <i class="fa-brands fa-facebook"></i>
-        </a>
+        </a> &nbsp;
       </div>
       <div class="ContactImage">
         <img src="\images\contact.png" alt="ContactImage" />
