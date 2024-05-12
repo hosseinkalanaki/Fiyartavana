@@ -1,3 +1,4 @@
+
 .row-footer .container{
     margin: 100px;
     background-color: #000229;
@@ -16,7 +17,7 @@
     border-radius: 30px;
     background-color: white;
     padding: 4px;
-
+        
 }
 .email-reg form{
     display: inline;
@@ -67,4 +68,21 @@
 
 ul{
     list-style-type: none;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        background-color: #fff;
+        transition: left 0.5s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+    }
 }
