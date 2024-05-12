@@ -3,7 +3,6 @@
   .ContactUs {
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    border: 2px solid rgb(223, 23, 23);
     margin: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
