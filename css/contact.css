@@ -21,7 +21,7 @@
     padding: 1%;
     border: 1px;
     margin-right: 15%;
-    margin-top: 5%;
+    margin-top: 1%;
     grid-column: 1/3;
     grid-row: 1/2;
     font-size: 2rem;
@@ -52,9 +52,9 @@
   .ContactsListForms {
     background-color: white;
     padding: 1%;
-    border: 2px;
-    margin: 1%;
-    grid-column: 2/6;
+    border: 1px;
+    margin: none;
+    grid-column: 3/6;
     grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
@@ -66,9 +66,9 @@
   .ContactsListForm {
     background-color: none;
     padding: 1%;
-    border: 2px solid rgb(211, 211, 211);
-    margin: 1%;
-    grid-column: 2/6;
+    border: 1px solid rgb(211, 211, 211);
+    margin: none;
+    grid-column: 3/6;
     grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
@@ -80,9 +80,9 @@
   .ContactsListSelect {
     background-color: none;
     padding: 1%;
-    border: 2px solid rgb(211, 211, 211);
-    margin: 1%;
-    grid-column: 2/6;
+    border: 1px solid rgb(211, 211, 211);
+    margin: none;
+    grid-column: 3/6;
     grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
@@ -94,9 +94,9 @@
   .ContactsListTextArea {
     background-color: none;
     padding: 1%;
-    border: 2px solid rgb(211, 211, 211);
-    margin: 1%;
-    grid-column: 2/6;
+    border: 1px solid rgb(211, 211, 211);
+    margin: none;
+    grid-column: 3/6;
     grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
@@ -108,10 +108,10 @@
 
   .ContactsListSubmit {
     background-color: rgb(100, 35, 235);
-    padding: 5%;
-    border: 2px;
-    margin: 1%;
-    grid-column: 2/6;
+    padding: 3%;
+    border: 1px;
+    margin: none;
+    grid-column: 3/6;
     grid-row: 1/2;
     text-align: center;
     border-radius: 10px;
@@ -129,8 +129,8 @@
     background-color: none;
     padding: 1%;
     border: 2px;
-    margin-right: 6%;
-    margin-top: 25%;
+    margin-right: 5%;
+    margin-top: 22%;
     grid-column: 1/3;
     grid-row: 1/2;
     position: absolute;
@@ -142,8 +142,8 @@
     background-color: none;
     padding: 1px;
     border: 2px;
-    margin-right: 15%;
-    margin-top: 75%;
+    margin-right: 12%;
+    margin-top: 65%;
     grid-column: 1/3;
     grid-row: 1/2;
     position: inherit;
