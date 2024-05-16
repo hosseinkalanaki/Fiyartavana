@@ -2,27 +2,29 @@
   /* Contact Us starts here .......................... */
   .ContactUs {
     background-color: rgb(255, 255, 255);
-    padding: 5px;
-    margin: 5px;
+    padding: 1%;
+    border: 2px solid red;
+    margin-bottom: 2%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    row-gap: 1px;
-    column-gap: 1px;
-    font-size: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 1%;
+    column-gap: 1%;
+    font-size: 1rem;
     text-align: right;
-    justify-content: center;
+    justify-content: right;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .ContactUsText {
     background-color: none;
-    padding: 15px;
-    border: 5px;
-    margin: 5px;
-    grid-column: 3/5;
+    padding: 1%;
+    border: 1px;
+    margin-right: 15%;
+    margin-top: 5%;
+    grid-column: 1/3;
     grid-row: 1/2;
-    font-size: x-large;
+    font-size: 2rem;
     justify-content: right;
   }
 
@@ -32,10 +34,10 @@
 
   .ContactUsText2 {
     background-color: none;
-    padding: 15px;
-    border: 5px;
-    margin: 5px;
-    grid-column: 3/5;
+    padding: 1%;
+    border: 2px;
+    margin-right: none;
+    grid-column: 1/3;
     grid-row: 1/2;
     font-size: small;
     justify-content: right;
@@ -48,81 +50,75 @@
   }
 
   .ContactsListForms {
-    background-color: none;
-    padding: 10px;
+    background-color: white;
+    padding: 1%;
     border: 2px;
-    margin: 5px;
-    grid-column: 2/3;
-    grid-row: 1/5;
-    text-align-last: right;
+    margin: 1%;
+    grid-column: 2/6;
+    grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
-    inline-size: 400px;
+    inline-size: 74%;
     justify-self: end;
-    float: right;
+    font-size: medium;
   }
 
   .ContactsListForm {
     background-color: none;
-    padding: 10px;
+    padding: 1%;
     border: 2px solid rgb(211, 211, 211);
-    margin: 5px;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    text-align-last: right;
+    margin: 1%;
+    grid-column: 2/6;
+    grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
-    inline-size: 376px;
+    inline-size: 100%;
     justify-self: end;
-    float: right;
+    font-size: medium;
   }
 
   .ContactsListSelect {
     background-color: none;
-    padding: 10px;
+    padding: 1%;
     border: 2px solid rgb(211, 211, 211);
-    margin: 5px;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    text-align-last: right;
+    margin: 1%;
+    grid-column: 2/6;
+    grid-row: 1/2;
     text-align: right;
     border-radius: 10px;
-    inline-size: 375px;
+    inline-size: 100%;
     justify-self: end;
-    float: right;
+    font-size: medium;
   }
 
   .ContactsListTextArea {
     background-color: none;
-    padding: 14px;
+    padding: 1%;
     border: 2px solid rgb(211, 211, 211);
-    margin: 5px;
-    grid-column: 2/3;
-    grid-row: 2/5;
-    text-align-last: right;
-    text-align: end;
+    margin: 1%;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    text-align: right;
     border-radius: 10px;
-    inline-size: 375px;
-    justify-self: right;
-    float: right;
-    font-size: 17px;
-    height: 80px;
+    inline-size: 100%;
+    justify-self: end;
+    font-size: medium;
+    height: 150px;
   }
 
   .ContactsListSubmit {
     background-color: rgb(100, 35, 235);
-    padding: 15px;
-    border: 5px;
-    margin: 5px;
-    grid-column: 2/3;
-    grid-row: 3/5;
-    text-align-last: center;
+    padding: 5%;
+    border: 2px;
+    margin: 1%;
+    grid-column: 2/6;
+    grid-row: 1/2;
     text-align: center;
     border-radius: 10px;
-    inline-size: 375px;
-    justify-self: center;
-    float: right;
+    inline-size: 100%;
+    justify-self: end;
     font-size: large;
+    color: rgb(255, 255, 255);
   }
 
   .ContactsListSubmit:hover {
@@ -131,23 +127,26 @@
 
   .Icons {
     background-color: none;
-    padding: 15px;
-    border: 5px;
-    margin: 5px;
-    grid-column: 3/5;
-    grid-row: 2/3;
-    position: relative;
-    font-size: 30px;
-    align-content: center;
+    padding: 1%;
+    border: 2px;
+    margin-right: 6%;
+    margin-top: 25%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    position: absolute;
+    font-size: 2rem;
+    align-content: right;
   }
 
   .ContactImage {
     background-color: none;
-    padding: 15px;
-    border: 5px;
-    margin: 5px;
-    grid-column: 3/5;
-    grid-row: 2/3;
+    padding: 1px;
+    border: 2px;
+    margin-right: 15%;
+    margin-top: 75%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    position: inherit;
   }
 
   /* Unvisited link */
@@ -170,3 +169,4 @@
     color: rgb(0, 0, 255);
   }
 }
+/* Contact Us ends here .......................... */
