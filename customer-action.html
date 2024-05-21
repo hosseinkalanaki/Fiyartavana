@@ -1,274 +1,67 @@
-<!DOCTYPE html>
-<html lang="fa">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>فیار توانا</title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
-    <link
-      href="
-    https://cdn.jsdelivr.net/npm/iransans-fontface@0.1.1/css/iransans/iransans-fontface.min.css
-    "
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
 
-    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./js/script.js?v=1"></script>
-  </head>
+    <!--   owl carousel uses to make sliders -->
+    <link rel="stylesheet" href="./css/OwlCarousel2_2.3.4.carousel.css">
+    <link rel="stylesheet" href="./css/OwlCarousel2_2.3.4.theme.default.css">
 
-  <body dir="rtl">
-    <div class="container-fluid">
-      <div class="row header rounded-3 p-1 d-flex-center">
-        <a class="Top-brand d-flex-center" href="#">
-          <img class="top-logo" src="images/transparent-logo-white.png" />
-          <h3>شرکت بازرگانی فیارتوانا</h3>
-        </a>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/customer-action.css?v=1"/>
+    <link rel="stylesheet" href="./css/iransans-fontface.min.css"/>
+</head>
 
-        <div class="d-flex-center" id="navbarNavDropdown">
-          <ul class="menu-items">
-            <li class="menu-item">
-              <a class="menu-link p-2 active" aria-current="page" href="#">
-                <i class="fas fa-home"></i>
-                صفحه اصلی
-              </a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link p-2" href="#"> خبرنامه </a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link p-2" href="#"> درباره ما </a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link p-2" href="#"> تماس با ما </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row body mt-4">
-        <div class="ContactUs" id="ContactUs">
-          <link rel="stylesheet" href="./css/style.css" />
-          <script
-            src="https://kit.fontawesome.com/c0a4b66692.js"
-            crossorigin="anonymous"
-          ></script>
-
-          <div class="ContactsListForms">
-            <form action="/action_submit.php">
-              <!-- input fields go here -->
-              <input
-                class="ContactsListForm"
-                name="name"
-                type="text"
-                placeholder="نام شما"
-              />
-              <br />
-              <br />
-              <input
-                class="ContactsListForm"
-                name="email"
-                type="email"
-                placeholder="ایمیل شما"
-              />
-              <br />
-              <br />
-              <input
-                class="ContactsListForm"
-                name="mobile_number"
-                type="tel"
-                placeholder="شماره تماس"
-              />
-              <br />
-              <br />
-
-              <select class="ContactsListSelect" name="subject" size="1">
-                <option value="subject1" selected>موضوع</option>
-                <option value="subject2">موضوع ۱</option>
-                <option value="subject3">موضوع ۲</option>
-                <option value="subject4">موضوع ۳</option>
-              </select>
-              <br />
-              <br />
-
-              <input
-                class="ContactsListTextArea"
-                name="message"
-                type="text"
-                placeholder="... پیام شما"
-              />
-              <br />
-              <br />
-              <input
-                class="ContactsListSubmit"
-                type="submit"
-                value="ارسال پیام"
-              />
-              <br />
-              <br />
-            </form>
-          </div>
-
-          <div class="ContactUsText">
-            <h6>ارتباط با ما</h6>
-            <p>
-              ما مشتاقانه منتظر نظرات &nbsp;
-              <i class="fa-solid fa-paper-plane" id="ContactUsText1"></i> &nbsp;
-              شما هستیم
-            </p>
-            <p class="ContactUsText2">
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-            </p>
-          </div>
-
-          <div class="Icons">
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              title="Instagram"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            &nbsp;
-
-            <a href="https://www.linkedin.com" target="_blank" title="Linkedin">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            &nbsp;
-
-            <a href="https://twitter.com" target="_blank" title="Twitter">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            &nbsp;
-
-            <a href="https://www.facebook.com" target="_blank" title="Facebook">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            &nbsp;
-          </div>
-          <div class="ContactImage">
-            <img src="images/contact.png" alt="ContactImage" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row footer rounded-3 p-1 pt-3 d-flex-center">
-        <div class="col-md-6">
-          <h4>آخرین اخبار و به روزرسانی ما را دریافت کنید</h4>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
-              <div
-                class="email-reg d-flex align-items-center justify-content-between"
-              >
-                <i class="far fa-envelope"></i>
-                <input type="text" placeholder=" آدرس ایمیل شما  " />
-                <button class="p-2" type="button">ثبت</button>
-              </div>
-            </div>
-            <div class="col-3"></div>
-          </div>
-        </div>
-        <div class="col-12">
-          <hr />
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h4>شرکت بازرگانی فیار توانا</h4>
-          <div class="tp-footer__social footer-social">
-            <ul>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-vimeo-v"></i></a>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h4>ما چکار میکنیم</h4>
-          <div>
-            <ul>
-              <li><a href="#">کسب و کار</a></li>
-              <br />
-              <li><a href="#">فن آوری</a></li>
-              <br />
-              <li><a href="#">بازاریابی آنلاین</a></li>
-              <br />
-              <li><a href="#">استراتژی تبلیغاتی</a></li>
-              <br />
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h4>صفحات دیگر</h4>
-          <div>
-            <ul>
-              <li><a href="#">درباره</a></li>
-              <br />
-              <li><a href="#">خدمات</a></li>
-              <br />
-              <li><a href="#">چگونه کار میکند</a></li>
-              <br />
-              <li><a href="#">برنامه قیمت گذاری</a></li>
-              <br />
-              <li><a href="#">وبلاگ</a></li>
-              <br />
-              <li><a href="#">مخاطب</a></li>
-              <br />
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>ارتباط با ما</h4>
-          <div>
-            <ul>
-              <li>
-                <a href="#"
-                  ><span
-                    ><img
-                      src="./images/phone2.jpg"
-                      alt="phone"
-                      width="10%" /></span
-                  >09121234567</a
-                >
-              </li>
-              <br />
-              <li>
-                <a href="#"
-                  ><span
-                    ><img
-                      src="./images/white-email.png"
-                      alt="email"
-                      width="10%" /></span
-                  >majid@fiar.com</a
-                >
-              </li>
-              <br />
-              <li>
-                <a href="#"
-                  ><span
-                    ><img
-                      src="./images/address.jpg"
-                      alt="address"
-                      width="10%" /></span
-                  >تهران</a
-                >
-              </li>
-              <br />
-            </ul>
-          </div>
-        </div>
-        <div class="col-12">
-          <hr />
-        </div>
-        <div class="col-12">
-          <div class="row">کپی رایت</div>
-        </div>
-      </div>
+<body>
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2>کلمات مشتریان ما</h2>
     </div>
-  </body>
+    <div class="col-md-12">
+        <div class="customer-action owl-carousel">
+            <div class="customer-slide-item row mb-5 rounded-4">
+                <div class="col-md-6 p-5">
+                    <span>ایرانخودرو</span>
+                </div>
+                <div class="col-md-6 p-5 rounded-4">
+                        <span>ایران‌خودرو، که در سال ۱۳۴۱ (۱۹۶۲ میلادی) تأسیس شد، یکی از بزرگترین و قدیمی‌ترین شرکت‌های خودروسازی ایران است.
+                            این شرکت در تهران قرار دارد و با نام اختصاری IKCO نیز شناخته می‌شود.
+                            ایران‌خودرو نقش بسیار مهمی در صنعت خودروسازی کشور دارد و تولیدات آن شامل انواع خودروهای سواری، تجاری و سنگین می‌باشد.</span>
+                </div>
+            </div>
+            <div class="customer-slide-item row mb-5 rounded-4">
+                <div class="col-md-6 p-5">
+                    <span>نمی دانم اطلاعی ندارم</span>
+                </div>
+                <div class="col-md-6 p-5 rounded-4">
+                        <span>محصولات برجسته این شرکت می‌توان به خودروهای پژو ۲۰۶، پژو ۴۰۵، سمند، دنا، و رانا اشاره کرد.
+                            ایران‌خودرو همکاری‌های گسترده‌ای با شرکت‌های بین‌المللی از جمله پژو، رنو، و سوزوکی داشته است که منجر به تولید مدل‌های مختلف خودروهای این برندها در داخل ایران شده است.</span>
+                </div>
+            </div>
+            <div class="customer-slide-item row mb-5 rounded-4">
+                <div class="col-md-6 p-5">
+                    <span>نمی دانم اطلاعی ندارم</span>
+                </div>
+                <div class="col-md-6 p-5 rounded-4">
+                        <span>همچنین، ایران‌خودرو در زمینه تولید قطعات و موتورهای خودرو نیز فعالیت می‌کند و با سرمایه‌گذاری در این حوزه‌ها، سعی دارد وابستگی به واردات را کاهش داده
+                            و به خودکفایی در صنعت خودرو دست یابد.
+                            این شرکت با داشتن شبکه گسترده‌ای از نمایندگی‌ها و خدمات پس از فروش در سراسر کشور، یکی از پیشروان بازار خودرو در ایران محسوب می‌شود.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="./js/OwlCarousel2_2.3.4.carousel.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/fontawesome.js"></script>
+<script type="text/javascript" src="./js/script.js?v=2"></script>
+</body>
+
 </html>
